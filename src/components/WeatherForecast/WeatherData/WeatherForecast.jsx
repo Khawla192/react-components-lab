@@ -2,7 +2,7 @@ import './WeatherForecast.css';
 
 const WeatherForecast = (props) => {
 
-    const { day, img, imgAlt, conditions, time } = props
+    const { day, conditions, time } = props
     
     return (
         <div className="weather">
