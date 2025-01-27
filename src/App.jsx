@@ -53,7 +53,6 @@ const App = () => {
           imgAlt={weather.imgAlt} 
           conditions={weather.conditions} 
           time={weather.time}/>
-          // <WeatherForecast key={index} weahter={...weather}/>
         )
       })}
       </section>
